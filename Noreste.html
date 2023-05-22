@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,60 @@
     <title>Noreste</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
-    <div id="container"> 
+    <div id="container">
         <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
         <div include-html="./partials/header.html"></div>
         <div include-html="./partials/main-menu.html"></div>
-        
 
+        <div class="seccion">
+            <div>
+                <h1>Litoral Argentino</h1>
+            </div>
+            <h2> Te apasionan los animales, la selva, los humedales y la vida salvaje?
 
-        <div><h1>Completar aquí</h1>
-        <h1>Descubre el Noreste Argentino</h1>
-        
+                <br>¡Exploremos juntos el litoral de nuestro país y su naturaleza exótica!</br>
+            </h2>
+            <img src="img/esterosdelibera.corrientes.jpg" alt="Corrientes" class="foto">
+            <div>
+                <ul class="descripcion">
+                    <br>
+                    <li>Paquete Litoral (Misiones y Corrientes): 9 días</li>
+                    <li>Traslados (Salidas desde cualquier punto del país)</li>
+                    <li>Traslados (aeropuerto / hotel / aeropuerto)</li>
+                    <li>3 noches de alojamiento en  Puerto Iguazú, con desayuno.</li>
+                    <li>3 noches de alojamiento en Posadas, con desayuno.</li>
+                    <li>3 noches de alojamiento en Esteros del Iberá, con pensión completa.</li>
+                    <li>Excursiones en Iguazú: Cataratas argentinas + cataratas brasileñas </li>
+                    <li>Excursiones en Posadas: Ruinas Jesuiticas (Argentina y Paraguay) </li>
+                    <li>Excursiones en Esteros del Iberá: Lancha laguna iberá + trekking por la selva + Visita al Parque Nacional Iberá + Paseo en Kayak </li>
+                    <li>Guía Local</li>
+                    <li>Precio aproximado: $82.000</li>
+                </ul>
+            </div>
         </div>
+        <br>
+        <div class="seccion">
+            <h2>Experiencias de viajeros que nos conocen y recomiendan:</h2>
+            <div>
+                <div><!-- "experiencia 1" -->
+                    <img src="img/viajerosesteros.jpg" alt="Corrientes" class="foto">
+                    <div class="descripcion">
+                        <p> <br>
+                            <strong>Carla:</strong> Siempre quisimos ir a los Esteros del Iberá pero no sabíamos cómo.
+                            Por suerte me contacté con A las Nubes que nos recomendaron las mejores formas de ir y
+                            excursiones para hacer. 4x4, pesca, salida en bote, caminata nocturna y demás. Todo con un
+                            guía local. Vimos todo tipo de aves, yacarés y carpinchos. Una experiencia completa con
+                            amigos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
 
         <div include-html="./partials/footer.html"></div>
     </div>
@@ -27,4 +70,5 @@
 
     <script src="js/include-html.js"></script>
 </body>
+
 </html>

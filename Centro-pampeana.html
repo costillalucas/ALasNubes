@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,55 @@
     <title>Centro</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
-    <div id="container"> 
+    <div id="container">
         <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
         <div include-html="./partials/header.html"></div>
         <div include-html="./partials/main-menu.html"></div>
-        
 
 
-        <div><h1>Completar aquí</h1>
-            <h1>Descubre el centro del pais</h1>
+        <div class="seccion">
+            <div>
+                <h1>Cuyo</h1>
+            </div>
+            <h2>El centro de nuestro país tiene ese encanto que nadie se debería perder. Las sierras de Córdoba, el
+                delta
+                del Paraná y la magnífica Buenos Aires son algunos de los muchos atractivos que tiene para ofrecer.
+                <br>¡A por más aventuras!</br>
+            </h2>
+            <img src="img/LaPampa.webp" alt="La Pampa" class="foto">
+            <div>
+                <ul class="descripcion">
+                    <br>
+                    <li>Las tardecitas de Buenos Aires tiene ese qué sé yo, ¿viste?</li>
+                    <li>Paquete por la ciudad de Buenos Aires: 3 días</li>
+                    <li>Traslados de entrada y salida</li>
+                    <li>3 noches de alojamiento, con desayuno.</li>
+                    <li>Excursiones: City tour + Delta del Tigre + Show de Tango</li>
+                    <li>Guía Español e Inglés</li>
+                    <li>Precio aproximado: $26.000</li>
+                </ul>
+            </div>
         </div>
-    
+        <br>
+        <div class="seccion">
+            <h2>Experiencias de viajeros que nos conocen y recomiendan:</h2>
+            <div>
+                <div><!-- "experiencia 1" -->
+                    <img src="img/viajerosbuenosaires.jpg" alt="Valle de la luna" class="foto">
+                    <div class="descripcion">
+                        <p> <br>
+                            <strong>Robert:</strong> My first time in Buenos Aires was very short, I did a business trip
+                            with my company. This time I came with my wife and I wanted to show her this amazing city. I
+                            contacted this agency because I wanted something specialized for my passion for history and
+                            meat. They did an incredible job and I highly recommend it (of course they speak english
+                            very well). The best trip ever!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <div include-html="./partials/footer.html"></div>
@@ -29,4 +67,5 @@
     <script src="js/include-html.js"></script>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,57 @@
     <title>Cuyo</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
-    <div id="container"> 
+    <div id="container">
         <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
         <div include-html="./partials/header.html"></div>
         <div include-html="./partials/main-menu.html"></div>
-        
 
+        <div class="seccion">
+            <div>
+                <h1>Cuyo</h1>
+            </div>
+            <h2>La región de Cuyo es una mezcla única de paisajes inhóspitos de alta montaña, historia, tradición,
+                naturaleza y vino.
 
-        <div><h1>Completar aquí</h1>
-            <h1>Descubre la región de Cuyo</h1>
+                <br>¡Acompañanos en este descubrimiento!</br>
+            </h2>
+            <img src="img/Cuyo.jpg" alt="Mendoza" class="foto">
+            <div>
+                <ul class="descripcion">
+                    <br>
+                    <li>Paquete San Juan y Mendoza: 6 días</li>
+                    <li>Pasaje aéreo (Salidas desde cualquier punto del país)</li>
+                    <li>Traslados (aeropuerto / hotel / aeropuerto)</li>
+                    <li>2 noches de alojamiento en San Juan, con desayuno.</li>
+                    <li>1 nochee de alojamiento en Valle Fértil, con desayuno.</li>
+                    <li>3 noches de alojamiento en Mendoza, con desayuno.</li>
+                    <li>Excursiones en San Juan: Valle de la Luna y City tour + Talampaya (Argentina y Paraguay) </li>
+                    <li>Excursiones en Mendoza: Caminos del vino + city tour + Alta montaña </li>
+                    <li>Precio aproximado: $72.000</li>
+                </ul>
+            </div>
         </div>
-    
+        <br>
+        <div class="seccion">
+            <h2>Experiencias de viajeros que nos conocen y recomiendan:</h2>
+            <div>
+                <div><!-- "experiencia 1" -->
+                    <img src="img/viajerosanjuan.jpg" alt="Valle de la luna" class="foto">
+                    <div class="descripcion">
+                        <p> <br>
+                            <strong>Lara:</strong> Con mi amigo necesitábamos un descanso de los destinos masivos y
+                            buscábamos algo nuevo. Le comentamos esto a nuestro asesor de A las Nubes, nos preguntó que
+                            nos gustaba hacer y nos recomendó un viaje por Cuyo. Hicimos trekking, bicicleta por el
+                            Valle de la Luna, tours de vino y muchos circuitos. Nos quedamos impresionados con los
+                            paisajes y recomendamos mucho la atención personalizada de la agencia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
         <div include-html="./partials/footer.html"></div>
@@ -29,4 +69,5 @@
     <script src="js/include-html.js"></script>
 
 </body>
+
 </html>
