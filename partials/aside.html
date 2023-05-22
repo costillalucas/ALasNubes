@@ -1,14 +1,5 @@
 <aside>
     <div class="widget">
-        <h3>Iniciar sesión</h3>
-        <form>
-           <input type="email" name="email" placeholder="Email" >
-           <input type="password" name="password" placeholder="Password">
-           <input type="submit" value="Entrar" >
-        </form>
-    </div>
-
-    <div class="widget">
         <h3>Ofertas especiales</h3>
         <ul>
             <li>
@@ -31,5 +22,19 @@
             Fotos tomadas por nuestros clientes
         </blockquote>
     </div>
-
+    
+<!-- Agrego parte del formulario de José -->
+    <div class="widget">
+        <form method="post" onsubmit=" return suscribirse()">
+            <div>
+                <h3>Suscribite para recibir novedades!</h3>
+                <!-- <label class="form_label" for="Suscribite">Suscribite para recibir novedades!</label> -->
+                <input type="email" id="Suscribite" name="Suscribite" required 
+                    placeholder="Ingresa tu direccion de email">
+            </div>
+            <div>
+                <input type="submit" value="Suscribirse" >
+            </div>
+        </form>
+    </div>
 </aside>
