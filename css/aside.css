@@ -1,0 +1,68 @@
+aside{
+    float: left;
+    width: 300px; /*Aquí creo que sería mejor poner 18% */
+    background-color: white;
+    margin-top:40px;
+    padding:30px;
+    box-sizing:border-box; /* Esto le dice: quiero que el ancho sea de 300px y que todo lo demás se ajuse a eso*/
+    border:solid 1px var(--gray-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+    
+
+}
+aside h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 5px;
+    font-family: "CastoroTitling-Regular", Arial, Helvetica, sans-serif;
+    border-top: solid 1px va(--secondary-color-dark);
+    border-bottom: solid 1px var(--secondary-color-dark);
+    padding: 5px;
+}
+.widget{
+    margin-bottom: 60px;
+}
+.widget form input[type="email"], .widget form input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.widget form input[type="submit"]{
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    transition: all 0.3s; /*tiempo en que cambia de color cuando paso el mouse*/
+}
+.widget form input[type="submit"]:hover{
+    cursor:pointer;
+    background-color: var(--primary-color-dark);
+}
+
+.widget ul{
+    list-style-type: circle;
+    padding-left: 20px;
+
+}
+.widget ul li{
+    margin:15px 0;
+}
+.widget blockquote{
+    margin:0;
+    color: var(--gray-color-dark);
+    font-style: italic;
+}
+/**/
+@media (max-width:700px){
+    aside{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,22 @@
+header {
+    float: left;
+    width: 100%;
+    font-family: "Tangerine-Regular", Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*background-color: #fff;*/
+    background-image: url("../img/tren-nubes.jfif");
+    background-size: cover;
+    
+}
+header img{
+    width: 80px;
+}
+header h1{
+    color: var(--primary-color);
+    font-size: 30px;
+    margin: 0px;
+    text-shadow: 2px 2px 5px var(--gray-color);
+
+}
