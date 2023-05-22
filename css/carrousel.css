@@ -2,35 +2,38 @@
 
 
 .carrousel{
-    width: 90%;
+    width: 100%;
     max-width: 120em;
     background-color: lightblue;
     padding: 2em;
     overflow-x: hidden;
+    box-sizing: border-box;
+    
 }
 .carrousel .grande{
     width: 500%;
-    background-color: orange;
+    background-color: var(--secondary-color);
 /* para cponer alineada una imagen al lado de otra hago lo siguiente*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
+    padding: 0em;
 
     transition: all .5s ease;
     transform: translateX(-20%)
 }
 .carrousel .img{
-    width: calc(100%/5 - 2em);
+    width: calc(100%/5);
     min-height: 10vh;
     background-color: lime;
+    
 }
 .carrousel .puntos{
     width: 100%;
     margin: 1em 0 0;
-    background-color: red;
-    padding: .4em;
+    background-color: var(--primary-color);
+    padding: .2em;
     /* Para alinear los puntos*/
     display: flex;
     flex-flow: row nowrap;
@@ -41,9 +44,9 @@
     border-radius: 2em;
     width: 2em;
     height: 2em;
-    background-color: blue;
+    background-color: var(--secondary-color) ;
     margin: 1em 1em 0;
 }
 .carrousel .punto.activo{
-    background-color: orange;
+    background-color: white;
 }

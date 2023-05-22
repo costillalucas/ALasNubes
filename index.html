@@ -12,19 +12,41 @@
         <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
         <div include-html="./partials/header.html"></div>
         <div include-html="./partials/main-menu.html"></div>
+        
+        <div class="carrousel">
+            <div class="grande">
+                <img src="img/Noroeste.avif" alt="imagen 1" class="img"><img src="img/Noroeste-Info.png" alt="imagen 1.5" class="img">
+                <img src="img/Noreste.avif" alt="imagen 2" class="img"><img src="img/Noreste-Info.png" alt="imagen 2.5" class="img">
+                <img src="img/Cuyo.jpg" alt="imagen 3" class="img"><img src="img/Cuyo-Info.png" alt="imagen 3.5" class="img">
+                <img src="img/Centro.webp" alt="imagen 4" class="img"><img src="img/Centro-Info.png" alt="imagen 4.5" class="img">
+                <img src="img/Patagonia.jpg" alt="imagen 5" class="img"><img src="img/Patagonia-Info.png" alt="imagen 5.5" class="img">
+                
+            </div>
+            <ul class="puntos">
+                <li class="punto activo"></li>
+                <li class="punto">
+                <li class="punto">
+                <li class="punto">
+                <li class="punto">
+                </li>
+            </ul>
+        </div>
+
+        <label>
+            <h2>¿Necesitas ayuda?</h2>
+            <p>¡Te brindamos asesoría gratuita para que puedas realizar tu viaje!</p>
+            <a href="./partials/formulario.html"> Solicitar>> </a>
+        </label>  
+
         <div include-html="./partials/aside.html"></div>
         <div include-html="./partials/content.html"></div>
         <div include-html="./partials/footer.html"></div>
     </div>
 
-    <label>
-        <h2>Necesitas ayuda?</h2>
-        <p>¡Te brindamos asesoría gratuita para que puedas realizar tu viaje!</p>
-        <a href="./partials/formulario.html"> Solicitar>> </a>
-    </label>
-    
-    <script src="js/include-html.js"></script>
-    <script src="js/carrousel.js"></script>
 
+
+    <script src="js/include-html.js"></script>
+    <script src="js/validacion.js"></script>
+    <script defer src="js/carrousel.js"></script>
 </body>
 </html>
