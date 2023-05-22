@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Tangerine-Regular";
-    src: local("Tangerine-Regular"), url("..fonts/Tangerine-Regular.ttf");
+    src: "..fonts/Tangerine-Regular.ttf";
 }
 
 @font-face {
     font-family: "CastoroTitling-Regular";
-    src: local("CastoroTitling-Regular"), url("..fonts/CastoroTitling-Regular.ttf");
+    src: "..fonts/CastoroTitling-Regular.ttf";
 }
 
 @font-face {

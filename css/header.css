@@ -1,22 +1,27 @@
 header {
     float: left;
     width: 100%;
-    font-family: "Tangerine-Regular", Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 0px;
+    font-family: "Baskervville-Regular", Arial, Helvetica, sans-serif;
+    text-align: right;
     margin-bottom: 0px;
     /*background-color: #fff;*/
-    background-image: url("../img/tren-nubes.jfif");
+    background-image: url("../img/carronubes.avif");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+
     
 }
 header img{
-    width: 80px;
+    width: 200px;
 }
 header h1{
     color: var(--primary-color);
-    font-size: 30px;
-    margin: 0px;
+    font-size: 60px;
+    margin-top: 400px;
     text-shadow: 2px 2px 5px var(--gray-color);
+    margin-right: 70px;
+    font-family: "Baskervville-Regular";
 
 }

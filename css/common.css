@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family: 'CastoroTitling-Regular', Arial, Helvetica, sans-serif;
+    font-family: "Baskervville-Regular", Arial, Helvetica, sans-serif;
     /* background-image: url("../img/"); Línea para poner imgen de fondo del sitio web*/
     
 }
@@ -10,7 +10,7 @@ html, body {
 #container{
     max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Tangerine-Regular', Arial, Helvetica, sans-serif;
+    font-family: "Baskervville-Regular", Arial, Helvetica, sans-serif;
 }
 
 .text-secondary{
