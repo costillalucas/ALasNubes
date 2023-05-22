@@ -1,3 +1,4 @@
+/*Este es el css principal donde se vinculan todos los estilos correspondientes a cada partial*/
 @import "./fonts.css";
 @import "./common.css";
 @import "./header.css";
@@ -5,3 +6,4 @@
 @import "./main-menu.css";
 @import "./aside.css";
 @import "./content.css";
+@import "./footer.css";

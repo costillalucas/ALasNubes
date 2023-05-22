@@ -1,25 +1,28 @@
-
-{
-    margin: 0px;
+footer{
+    float:left;
+    width: 100%;
+    background-color: var(--gray-color-dark);
+    margin-top: 0px ;
     padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /*text-align: ;
+    color:;
+    font-size: ;*/ 
+}
+
+footer h1{
+    color:white;
+    font-size: 20px;
 }
 
 .container-body{
     width: 100%;
-    background: #20254b;
-    color: aliceblue;
+    background: var(--primary-color);
+    /*color: aliceblue;* Creo que no hace falta esta linea*/
     display: flex;
     justify-content: space-around;
-    padding: 40px;
-}
-}
-
-.container-footer-all{
-width: 100%;
-max-width: 1200px;
-margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .column1{
@@ -28,14 +31,11 @@ margin: auto;
     border-right: 100px;
 }
 
-.column1 h1{
-    font-size: 22px;
-}
-
 .column1 p{
 font-size: 14px;
-color: #c7c7c7; 
+color: white; 
 margin-top: 10px;
+/*Aquí centrar y justificar el contenido del párrafo*/
 
 }
 
@@ -43,9 +43,7 @@ margin-top: 10px;
     width: 30%;
     max-width: 400px;
 }
-.column2 h1{
-    font-size: 22px;
-}
+
 .row{
     margin-top: 30px;
     display: flex;
@@ -57,16 +55,15 @@ margin-top: 10px;
 .row label{
     margin-top: 10px;
     margin-left: 10px;
-    color: #c7c7c7;
+    color: white;
+    font-size: 14px; /* agrego en labels para que no quede tamaño por defecto, le puse el mismo tamaño del p en column1*/
 }
 .column3{
     width: 30%;
     max-width: 400px;
     justify-content: space-around;
 }
-.column3 h1{
-    font-size: 22px; 
-}
+
 .row2{
     margin-top: 10px;
     display: flex;
@@ -75,7 +72,8 @@ margin-top: 10px;
 .row2 label{
     margin-top: 10px;
     margin-left: 10px;
-    color: #c7c7c7;
+    color: white;
+    font-size: 14px;
 }
 .row2 img{
     width: 36px;
@@ -84,35 +82,41 @@ margin-top: 10px;
 
 .container-footer{
     width: 100%;
-    background-color: #101010;
+    /*background-color: #101010;*/
     display: flex;
     justify-content: left;
     padding: 20px;
-    color: wheat
-    max-width: 1200px
+    /*color: wheat Creo que no hace falta esta linea*/
+    box-sizing: border-box;
 }
 .copyright{
-    color: gray;
+    color: var(--gray-color);
+    font-size: 14px;
 }
-@media screen and  (max-width: 1100px){
+
+@media(max-width: 700px){
     .container-body{
         flex-wrap: wrap;
     }
     .column1{
-        max-width: 100%;
+        width: 100%;
     }
-    .column2,
+    .column2{
+        width:100%;
+        margin-top: 10px; /*Es necesaria esta linea?*/
+    }
     .column3{
-        margin-top: 10px;
+        width:100%;
+        margin-top: 10px; /*Es necesaria esta linea?*/
     }
 }
 
-.container-body: after {
+/*.container-body: after {
     content: "";
     display: table;
     clear: both;
   }
-
+*/
 
 
 
