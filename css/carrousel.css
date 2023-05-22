@@ -5,9 +5,13 @@
     width: 100%;
     max-width: 120em;
     background-color: lightblue;
+    background-image: url("../img/carronubes.avif");
     padding-top: 300px;
     overflow-x: hidden;
     box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
 }
 .carrousel .grande{
