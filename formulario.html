@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+
+</head>
+
+<body >
+    <div class="formulario">
+        <h2>*Compra tu pasaje*</h2>
+        <form method="post" onsubmit="return validarFormulario()">
+            <div>
+                <label class="form_label" for="nombre"> 
+                    Nombre completo: <a class="campo_requerido">*</a>
+                </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre Apellido" required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="email">
+                    Correo electrónico: <a class="campo_requerido">*</a>
+                </label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@hotmail.com"required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="telefono">
+                    Teléfono: <a class="campo_requerido">*</a>
+                </label>
+                <input type="tel" id="telefono" name="telefono" placeholder="1122334455"required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="origen">
+                    Origen: <a class="campo_requerido">*</a>
+                </label>
+                <input type="text" id="origen" name="origen" placeholder="Buenos Aires" required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="destino">
+                    Destino: <a class="campo_requerido">*</a>
+                </label>
+                <input type="text" id="destino" name="destino" placeholder="Patagonia"required>
+            </div>
+            <br>
+            <div onclick="tipoDeViaje()">
+                <input type="radio" id="ida" name="viaje" value="ida" checked> 
+                <label for="ida"><b>Ida</b></label>
+            
+                <input type="radio" id="ida y vuelta" name="viaje" value="ida y vuelta"> 
+                <label for="ida"> <b>Ida y vuelta</b></label> 
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="fecha-salida">
+                    Fecha de salida: <a class="campo_requerido">*</a>
+                </label>
+                <input type="date" id="fecha-salida" name="fecha-salida" onclick="ResetarFechaRegreso()" required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="fecha-regreso">
+                    Fecha de regreso: <a class="campo_requerido">*</a>
+                </label>
+                <input disabled type="date" id="fecha-regreso" name="fecha-regreso" onclick="setearFechaRegreso()" required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="pasajes">
+                    Número de pasajes: <a class="campo_requerido">*</a>
+                </label>
+                <select name="select" id="cantPasajeros">
+                    <option value="1" selected> 1</option>
+                    <option value="2"> 2</option>
+                    <option value="3"> 3</option>
+                    <option value="4"> 4</option>
+                  </select>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="presupuesto">
+                    presupuesto: <a class="campo_requerido">*</a>
+                </label>
+                <input type="number" id="presupuesto" name="presupuesto" value="1000" min="1000" max="999999" required>
+            </div>
+            <br>
+            <div>
+                <label class="form_label" for="Preferencias">Preferencias:</label>
+                <textarea id="Preferencias" name="Preferencias" placeholder="Clase turista, numero de asiento, discapacidad, etc."
+                ></textarea>
+            </div>
+            <br><br>
+                <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+ <!----------------------------------------------------------------------------------------------------> 
+
+    <div class="suscribite">
+        <form method="post" onsubmit=" return suscribirse()">
+            <div>
+                <label class="form_label" for="Suscribite">Suscribite para recibir novedades!</label>
+                <br>
+                <input type="email" id="Suscribite" name="Suscribite" required 
+                    placeholder="Ingresa tu direccion de email">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Suscribirse" >
+            </div>
+        </form>
+    </div>
+
+<!---------------------------------------------------------------------------------------------------->
+
+    <script src="validacion.js"></script>
+</body>
+
+</html>
