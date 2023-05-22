@@ -6,7 +6,7 @@ input[type= "number"],
 select {
     width: 247px;
     padding: 10px;
-    border: 1px solid #f00b0b;
+    border-color: #367e83;
     border-radius: 4px;
 }
 
@@ -14,13 +14,13 @@ textarea{
     width: 330px;
     height: 120px;
     padding: 10px;
-    border: 1px solid #f00b0b;
+    border: 1px solid #367e83;
     border-radius: 4px;
     resize:none;
 }
   
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #0b8b9c;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -29,7 +29,7 @@ input[type="submit"] {
 }
   
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #659aaa;
 }
 
 .form_label {
@@ -39,20 +39,20 @@ input[type="submit"]:hover {
 }
 
 .campo_requerido{
-    color: red;
+    color: #0b8b9c;
     font-size: large;
 }
 
-.suscribite{
+/*.suscribite{
     display:inline-block;
     border: 1px solid #f00b0b;
     width: 300px;
     padding: 5px;
-}
+}*/
 
 .formulario{
     display: inline-block;
     width: 370px;
-    border: 1px solid #f00b0b;
+    border: 1px solid #798d89;
     padding: 5px;
 }
