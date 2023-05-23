@@ -28,7 +28,7 @@
     transform: translateX(-20%)
 }
 .carrousel .img{
-    width: calc(100%/5);
+    width: calc(100%/10);
     min-height: 250px;
     background-color: lime;
     
