@@ -11,12 +11,12 @@ aside{
 
 aside h3{
     font-size: 18px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: white;
     background-color: var(--secondary-color);
     text-align: center;
     padding: 5px;
-    font-family: "CastoroTitling-Regular", Arial, Helvetica, sans-serif;
+    font-family: "CastoroTitling-Regular";
     border-top: solid 1px va(--secondary-color-dark);
     border-bottom: solid 1px var(--secondary-color-dark);
     padding: 5px;
@@ -51,7 +51,6 @@ aside h3{
 .widget ul{
     list-style-type: circle;
     padding-left: 20px;
-
 }
 
 .widget ul li{
@@ -59,7 +58,7 @@ aside h3{
 }
 
 .widget blockquote{
-    margin:0;
+    margin:100;
     color: var(--gray-color-dark);
     font-style: italic;
 }

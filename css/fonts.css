@@ -12,3 +12,13 @@
     font-family: "Baskervville-Regular";
     src: url("../fonts/Baskervville-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Merriweather-Regular";
+    src: url("../fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Merriweather-Light";
+    src: url("../fonts/Merriweather-Light.ttf");
+}
