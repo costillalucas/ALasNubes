@@ -3,7 +3,7 @@
     max-width: 120em;
     background-color: lightblue;
     background-image: url("../img/carronubes.avif");
-    padding-top: 300px;
+    padding-top: 25px;
     overflow-x: hidden;
     box-sizing: border-box;
     background-size: cover;
@@ -40,14 +40,15 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 .carrousel .punto{
     border-radius: .6em;
     width: 1.5em;
     height: 1em;
-    background-color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
     margin: 0em 1em 0;
 }
 .carrousel .punto.activo{
-    background-color: white;
+    background-color: var(--primary-color-dark);
 }
