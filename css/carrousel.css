@@ -1,9 +1,12 @@
+
+
+
 .carrousel{
     width: 100%;
     max-width: 120em;
     background-color: lightblue;
     background-image: url("../img/carronubes.avif");
-    padding-top: 25px;
+    padding-top: 300px;
     overflow-x: hidden;
     box-sizing: border-box;
     background-size: cover;
@@ -13,8 +16,8 @@
 }
 .carrousel .grande{
     width: 500%;
-    /*background-color: var(--secondary-color);*/
-/* para poner alineada una imagen al lado de otra hago lo siguiente*/
+    background-color: var(--secondary-color);
+/* para cponer alineada una imagen al lado de otra hago lo siguiente*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -25,30 +28,29 @@
     transform: translateX(-20%)
 }
 .carrousel .img{
-    width: calc(100%/10);
+    width: calc(100%/5);
     min-height: 250px;
-    background-color: lightblue;
+    background-color: lime;
     
 }
 .carrousel .puntos{
     width: 100%;
     margin: 1em 0 0;
-    /*background-color: var(--primary-color);*/
+    background-color: var(--primary-color);
     padding: .2em;
     /* Para alinear los puntos*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
 }
 .carrousel .punto{
-    border-radius: .6em;
-    width: 1.5em;
-    height: 1em;
-    background-color: var(--primary-color) ;
-    margin: 0em 1em 0;
+    border-radius: 2em;
+    width: 2em;
+    height: 2em;
+    background-color: var(--secondary-color) ;
+    margin: 1em 1em 0;
 }
 .carrousel .punto.activo{
-    background-color: #33d8ee;
+    background-color: white;
 }

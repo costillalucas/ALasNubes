@@ -1,7 +1,7 @@
 header {
     float: left;
     width: 100%;
-    font-family: "CastoroTitling-Regular";
+    font-family: "Baskervville-Regular", Arial, Helvetica, sans-serif;
     text-align: right;
     margin-bottom: 0px;
     /*background-color: #fff;*/
@@ -18,15 +18,13 @@ header img{
 }
 header h1{
     color: var(--primary-color);
-    font-family: "CastoroTitling-Regular";
     font-size: 60px;
     margin-top: 400px;
     text-shadow: 2px 2px 5px var(--gray-color);
-    margin-right: 100px;
-    
+    margin-right: 70px;
+    font-family: "Baskervville-Regular";
 
-}
-
+<<<<<<< HEAD
 @media (max-width: 700px) {
     header h1 {
         font-size: 30px;
@@ -34,4 +32,6 @@ header h1{
         margin-bottom: 10px;
         margin-right: 70px;
     }
+=======
+>>>>>>> 7998d5ee8df029c8c849a63ae33e42e97faac599
 }
