@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noroeste</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
-    <h1>Paquetes especiales en oferta</h1>
+    <div id="container">
+        <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
+        <div include-html="./partials/header.html"></div>
+        <div include-html="./partials/main-menu.html"></div>
+
+        <div>
+            <div class="container">
+                <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
+
+                <div>
+                    <div class="seccion">
+                        <div class="carrousel">
+                            <div class="grande">
+                                <img src="img/viajerojujuy.jpg" alt="imagen 1" class="img"><img src="img/Noroeste-Info.png" alt="imagen 1.5" class="img">
+                                <img src="img/viajeromisiones.JPG" alt="imagen 2" class="img"><img src="img/Noreste-Info.png" alt="imagen 2.5" class="img">
+                                <img src="img/viajerosanjuan.jpg" alt="imagen 3" class="img"><img src="img/Cuyo-Info.png" alt="imagen 3.5" class="img">
+                                <img src="img/viajerosbuenosaires.jpg" alt="imagen 4" class="img"><img src="img/Centro-Info.png" alt="imagen 4.5" class="img">
+                                <img src="img/viajeropatagonia.jpg" alt="imagen 5" class="img"><img src="img/Patagonia-Info.png" alt="imagen 5.5" class="img">
+                                
+                            </div>
+                            <ul class="puntos">
+                                <li class="punto activo"></li>
+                                <li class="punto">
+                                <li class="punto">
+                                <li class="punto">
+                                <li class="punto">
+                                </li>
+                            </ul>
+                        </div>
+                
+                    </div>
+                    <br>
+
+                    <div include-html="./partials/footer.html"></div>
+                </div>
+
+                <script src="js/include-html.js"></script>
+                <script defer src="js/carrousel.js"></script>
+
+
 </body>
+
 </html>
