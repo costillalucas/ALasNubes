@@ -18,10 +18,10 @@ header img{
 }
 header h1{
     color: var(--primary-color);
-    font-size: 60px;
+    font-size: 100px;
     margin-top: 400px;
     text-shadow: 2px 2px 5px var(--gray-color);
     margin-right: 70px;
-    font-family: "Baskervville-Regular";
+    font-family: 'Tangerine', cursive;
 
 }
