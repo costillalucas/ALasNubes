@@ -27,8 +27,8 @@
 .carrousel .img{
     width: calc(100%/10);
     min-height: 250px;
-    background-color: lightblue;
-    box-sizing: border-box;
+    background-color: lime;
+    
 }
 .carrousel .puntos{
     width: 100%;
