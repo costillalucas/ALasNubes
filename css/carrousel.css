@@ -50,5 +50,5 @@
     margin: 0em 1em 0;
 }
 .carrousel .punto.activo{
-    background-color: var(--primary-color-dark);
+    background-color: #33d8ee;
 }
