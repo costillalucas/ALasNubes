@@ -17,9 +17,11 @@ aside h3{
     text-align: center;
     padding: 5px;
     font-family: "CastoroTitling-Regular";
+    font-size:15px;
     border-top: solid 1px va(--secondary-color-dark);
     border-bottom: solid 1px var(--secondary-color-dark);
     padding: 5px;
+    padding-bottom: 2px;
 }
 
 .widget{

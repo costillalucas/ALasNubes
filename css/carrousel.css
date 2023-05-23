@@ -13,8 +13,8 @@
 }
 .carrousel .grande{
     width: 500%;
-    background-color: var(--secondary-color);
-/* para cponer alineada una imagen al lado de otra hago lo siguiente*/
+    /*background-color: var(--secondary-color);*/
+/* para poner alineada una imagen al lado de otra hago lo siguiente*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -33,7 +33,7 @@
 .carrousel .puntos{
     width: 100%;
     margin: 1em 0 0;
-    background-color: var(--primary-color);
+    /*background-color: var(--primary-color);*/
     padding: .2em;
     /* Para alinear los puntos*/
     display: flex;
@@ -42,11 +42,11 @@
     align-items: center;
 }
 .carrousel .punto{
-    border-radius: 2em;
-    width: 2em;
-    height: 2em;
+    border-radius: .6em;
+    width: 1.5em;
+    height: 1em;
     background-color: var(--secondary-color) ;
-    margin: 1em 1em 0;
+    margin: 0em 1em 0;
 }
 .carrousel .punto.activo{
     background-color: white;

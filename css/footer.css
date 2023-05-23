@@ -16,12 +16,12 @@ footer{
 }
 
 .column1{
-    width: 50%;
+    width: 45%;
 }
 
 .column1 p{
-font-size: 16px;
-font-family: "Baskervville-Regular";
+font-size: 15px;
+font-family: "Merriweather-Light";
 color: white; 
 margin-top: 20px;
 margin-left: 20px;
@@ -33,8 +33,9 @@ line-height: 30px;
 
 .column1 h1{
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 20px;
+    font-family: "CastoroTitling-Regular";
 }
 
 .column2{
@@ -43,8 +44,9 @@ line-height: 30px;
 
 .column2 h1{
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 0px;
+    font-family: "CastoroTitling-Regular";
 }
 
 .row2{
@@ -72,8 +74,9 @@ line-height: 30px;
 
 .column3 h1{
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 0px;
+    font-family: "CastoroTitling-Regular";
 }
 
 .row3{

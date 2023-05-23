@@ -27,11 +27,15 @@
 #content article h2{
     margin: 0;
     color: var(--secondary-color);
+    font-family: "CastoroTitling-Regular";
+    font-size: 15px;
 }
 
 #content article a{
-    font-size: 20px;
+    font-size: 15px;
     float: right;
+    color: var(--gray-color);
+    text-shadow: 2px 2px 5px var(--secondary-color-dark);
 }
 
 .pagination{
