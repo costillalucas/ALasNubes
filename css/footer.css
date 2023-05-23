@@ -41,13 +41,12 @@ text-align: justify;
 }
 
 .row{
-    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
 }
 .row img{
     width: 36px;
     height:36px;
-    margin-left: 10px;
 }
 .row label{
     margin-top: 10px;
@@ -58,7 +57,7 @@ text-align: justify;
 
 .column3 {
     justify-content: right
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 60px;
 }
 
