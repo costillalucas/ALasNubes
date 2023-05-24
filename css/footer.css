@@ -118,20 +118,31 @@ line-height: 30px;
     font-size: 14px;
 }
 
-@media(max-width: 700px){
+@media(max-width: 756px){
     .container-body{
         flex-wrap: wrap; /*Esto me parece mejor para 400px*/
     }
     .column1{
-        width: 100%;
+        width: 50%;
     }
     .column2{
-        width:100%;
-        margin-top: 10px; /*Es necesaria esta linea?*/
+        width: 50%;
     }
     .column3{
-        width:100%;
-        margin-top: 10px; /*Es necesaria esta linea?*/
+        margin: 0px;
+        width: 50%;
+        padding: 0;
+        height: auto;
+        .row {
+            margin-left: 30px;
+        }
+    }
+    .column4{
+        margin: 0;
+        margin-top: 20px;
+        width: 50%;
+        padding: 0;
+        height: auto;
     }
 }
 
