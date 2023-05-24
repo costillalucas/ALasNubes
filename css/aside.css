@@ -27,9 +27,9 @@ aside h3{
     padding-bottom: 2px;
 }
 
-.widget{
-    /*box-sizing: border-box;*/
-}
+/*.widget{
+    box-sizing: border-box;}*/
+
 
 .widget form input[type="email"], .widget form input[type="password"]{
     width: 100%;

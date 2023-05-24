@@ -146,7 +146,33 @@ line-height: 30px;
     }
 }
 
-
+@media(max-width: 550px){
+    .container-body{
+        flex-wrap: wrap; /*Esto me parece mejor para 400px*/
+        }
+    .column1{
+        width: 100%;
+        margin: 20px;
+            }
+    .column1 h1{
+        margin-left: 0px;
+    }
+    .column1 p{
+        margin-left: 0px;
+    }
+    .column2{
+        width: 100%;
+        margin: 20px;
+    }
+    .column3{
+        width:100%;
+        margin: 20px; /*Es necesaria esta linea?*/
+    }
+    .column4{
+        width:100%;
+        margin: 20px; /*Es necesaria esta linea?*/
+    }
+}
 
 
 
