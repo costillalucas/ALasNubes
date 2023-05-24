@@ -1,8 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    font-family: "Baskervville-Regular", Arial, Helvetica, sans-serif;
+    font-family: "Merriweather-Light";
+    background-image:  url("../img/carronubes.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     /* background-image: url("../img/"); Línea para poner imgen de fondo del sitio web*/
     
 }
@@ -10,7 +13,8 @@ html, body {
 #container{
     max-width: 1280px;
     margin: 0 auto;
-    font-family: "Baskervville-Regular", Arial, Helvetica, sans-serif;
+    font-family: "Merriweather-Light";
+
 }
 
 .text-secondary{
@@ -27,7 +31,6 @@ a{
     color: var(--primary-color);
     text-decoration: none;
     transition: all 0.3s;
-
 }
 
 a:hover{

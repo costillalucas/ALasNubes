@@ -1,20 +1,24 @@
 @font-face {
     font-family: "Tangerine-Regular";
-    src: "..fonts/Tangerine-Regular.ttf";
+    src: url("../fonts/Tangerine-Regular.ttf");
 }
 
 @font-face {
     font-family: "CastoroTitling-Regular";
-    src: "..fonts/CastoroTitling-Regular.ttf";
+    src: url("../fonts/CastoroTitling-Regular.ttf");
 }
 
 @font-face {
     font-family: "Baskervville-Regular";
-    src: "..fonts/Baskervville-Regular.ttf";
+    src: url("../fonts/Baskervville-Regular.ttf");
 }
+
 @font-face {
-    font-family: "Trickster";
-    src: local("Trickster"),
-      url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
-        format("opentype"), url("trickster-outline.woff") format("woff");
-  }
+    font-family: "Merriweather-Regular";
+    src: url("../fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Merriweather-Light";
+    src: url("../fonts/Merriweather-Light.ttf");
+}

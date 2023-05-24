@@ -5,130 +5,136 @@ footer{
     margin-top: 0px ;
     padding: 0px;
     box-sizing: border-box;
-    /*text-align: ;
-    color:;
-    font-size: ;*/ 
-}
-
-footer h1{
-    color:white;
-    font-size: 20px;
-    margin-left: 20px;
 }
 
 .container-body{
     width: 100%;
     background: var(--primary-color);
-    /*color: aliceblue;* Creo que no hace falta esta linea*/
     display: flex;
     padding: 15px;
     box-sizing: border-box;
 }
 
 .column1{
-    width: 40%;
+    width: 45%;
 }
 
 .column1 p{
-font-size: 14px;
+font-size: 15px;
+font-family: "Merriweather-Light";
 color: white; 
 margin-top: 20px;
 margin-left: 20px;
 margin-right: 30px;
 text-align: justify;
-/*Aquí centrar y justificar el contenido del párrafo*/
-
+padding-right: 30px;
+line-height: 30px;
 }
 
-.row{
-    margin-top: 20px;
-    display: flex;
-}
-.row img{
-    width: 36px;
-    height:36px;
-}
-.row label{
-    margin-top: 10px;
-    margin-left: 10px;
-    color: white;
-    font-size: 14px; /* agrego en labels para que no quede tamaño por defecto, le puse el mismo tamaño del p en column1*/
-}
-
-.column3 {
+.column1 h1{
+    color:white;
+    font-size: 15px;
     margin-left: 20px;
-    margin-right: 60px;
+    font-family: "CastoroTitling-Regular";
 }
 
-.column4{
-    justify-content: space-around;
-    margin-top: 10px;
+.column2{
+    width: 30%;
+}
+
+.column2 h1{
+    color:white;
+    font-size: 15px;
+    margin-left: 0px;
+    font-family: "CastoroTitling-Regular";
 }
 
 .row2{
     margin-top: 20px;
     display: flex;
-    max-width: 300px;
 }
+
+.row2 img{
+    width: 36px;
+    height:36px;
+}
+
 .row2 label{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     color: white;
     font-size: 14px;
 }
-.row2 img{
+
+.column3{
+    width: 30%;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.column3 h1{
+    color:white;
+    font-size: 15px;
+    margin-left: 0px;
+    font-family: "CastoroTitling-Regular";
+}
+
+.row3{
     margin-top: 20px;
+    display: flex;
+    max-width: 300px;
+}
+.row3 label{
+    margin-top: -5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+.row3 img{
+    margin-top: -5px;
     width: 40px;
     height: 40px;
 }
 
+.column4 {
+    max-width: 400px;
+    justify-content: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
 
 .container-footer{
     width: 100%;
-    /*background-color: #101010;*/
     display: flex;
     justify-content: left;
     padding: 20px;
     box-sizing: border-box;
 }
+
 .copyright{
     color: var(--gray-color);
     font-size: 14px;
 }
 
-@media(max-width: 756px){
+@media(max-width: 700px){
     .container-body{
         flex-wrap: wrap;
     }
     .column1{
-        width: 50%;
+        width: 100%;
     }
     .column2{
-        width: 50%;
+        width:100%;
+        margin-top: 10px; /*Es necesaria esta linea?*/
     }
     .column3{
-        margin: 0px;
-        width: 50%;
-        padding: 0;
-        height: auto;
-        .row {
-            margin-left: 30px;
-        }
-    }
-    .column4{
-        margin: 0;
-        width: 50%;
-        padding: 0;
-        height: auto;
+        width:100%;
+        margin-top: 10px; /*Es necesaria esta linea?*/
     }
 }
 
-/*.container-body: after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-*/
 
 
 
