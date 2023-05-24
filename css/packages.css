@@ -1,0 +1,66 @@
+#packages{
+    display:flex;
+    flex-direction: column;
+    float:left;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#packages article{
+    background-color:white;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px var(--gray-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+    text-align: center;
+}
+
+#packages article h1{
+    margin: 0;
+    color: var(--secondary-color);
+    font-family: "CastoroTitling-Regular";
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px var(--gray-color);
+    margin-bottom: 20px;
+}
+
+#packages article h2{
+    font-size: 15px;
+    color: var(--gray-color);
+    margin-bottom: 30px;
+    
+}
+#packages article p{
+    font-size: 15px;
+    color: var(--primary-color-dark);
+    text-transform: uppercase;
+}
+
+#packages article h4{
+    font-size: 15px;
+    color: var(--primary-color-dark);
+    text-transform: uppercase;
+}
+
+#packages article img{
+    width: 80%;
+    min-height: 200px;
+    object-fit: cover;    
+}
+
+#packages .description{
+        width: 100%;
+    font-family: "Merriweather-Light";
+    
+}
+
+@media (max-width: 700px){ /* Es el tamaño que le estoy dando en todos los media query*/
+    #packages{
+        margin-block-start: 30px;
+        width: 100%; /*esto significa que cuando llegue a 700px el content se ajustará al 100% del tamaño de la pantallita*/
+    }
+}

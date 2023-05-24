@@ -39,6 +39,7 @@
     text-shadow: 2px 2px 5px var(--secondary-color-dark);
 }
 
+/*
 .pagination{
     float:right;
 }
@@ -57,7 +58,7 @@
     color:white;
     background-color: var(--primary-color);
     border: solid 1px var(--primary-color-dark);
-}
+}*/
 
 @media (max-width: 700px){ /* Es el tamaño que le estoy dando en todos los media query*/
     #content{
