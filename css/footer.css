@@ -156,7 +156,7 @@ line-height: 30px;
 
 @media(max-width: 550px){
     .container-body{
-        flex-wrap: wrap; /*Esto me parece mejor para 400px*/
+        flex-wrap: wrap;        
         }
     .column1{
         width: 100%;
@@ -166,7 +166,10 @@ line-height: 30px;
         margin-left: 0px;
     }
     .column1 p{
+        width: 107%;
         margin-left: 0px;
+        margin-bottom: -20px;
+        margin-right: 0px;
     }
     .column2{
         width: 100%;
@@ -174,11 +177,11 @@ line-height: 30px;
     }
     .column3{
         width:100%;
-        margin: 20px; /*Es necesaria esta linea?*/
+        margin: 20px; 
     }
     .column4{
         width:100%;
-        margin: 20px; /*Es necesaria esta linea?*/
+        margin: 20px; 
     }
 }
 
