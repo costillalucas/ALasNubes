@@ -47,8 +47,8 @@
 }
 
 #packages article img{
-    width: 80%;
-    min-height: 200px;
+    width: 100%;
+    min-height: 150px;
     object-fit: cover;    
 }
 

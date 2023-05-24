@@ -15,34 +15,32 @@
         <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
         <div include-html="./partials/header.html"></div>
         <div include-html="./partials/main-menu.html"></div>
-        <div>
-            <div class="container">
-                <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
-                <div>
-                    <div class="seccion">
-                        <div>
-                            <h1>Noroeste Argentino</h1>
-                        </div>
-                        <h2> A todos nos fascinan los colores y sabores de nuestro norte argentino
-                            <br>¡Recorré con A las Nubes el noroeste y llegá hasta el cielo!</br>
-                        </h2>
-                        <div class="contenedor">
-                            <img src="img/region-noa-1.jpg" alt="Jujuy" class="fotoDescripcion">
-                            <ul class="descripcion">
-                                <br>
-                                <li>Paquete NOA (Salta y Jujuy): 7 días</li>
-                                <li>Pasaje aéreo (Salidas desde cualquier punto del país)</li>
-                                <li>Traslados (aeropuerto / hotel / aeropuerto)</li>
-                                <li>5 noches de alojamiento en Salta, con desayuno.</li>
-                                <li>2 noches de alojamiento en Purmamarca, con desayuno.</li>
-                                <li>Excursiones: City tour + Quebrada de Humahuaca + Cafayate + Tren de las nubes
-                                <li>Precio aproximado: $75.000</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div include-html="./partials/footer.html"></div>
-                </div>
-                <script src="js/include-html.js"></script>
-</body>
+
+        <section id="packages">
+            <article>
+                <h1>Noroeste Argentino</h1>
+                <h2> A todos nos fascinan los colores y sabores de nuestro Norte Argentino
+                    <br>¡Recorré con A las Nubes el noroeste y llegá hasta el cielo!</br>
+                </h2>
+
+                <img src="img/region-noa-1.jpg" alt="Jujuy" class="fotoDescripcion">
+                <ul class="description">
+                    <br>
+                    <p>Paquete NOA (Salta y Jujuy): 7 días</p>
+                    <li>Pasaje aéreo (Salidas desde cualquier punto del país)</li>
+                    <li>Traslados (aeropuerto / hotel / aeropuerto)</li>
+                    <li>5 noches de alojamiento en Salta, con desayuno.</li>
+                    <li>2 noches de alojamiento en Purmamarca, con desayuno.</li>
+                    <li>Excursiones: City tour + Quebrada de Humahuaca + Cafayate + Tren de las nubes
+                    <h4>Precio aproximado: $75.000</h4>
+                </ul>
+            </article>
+        </section>
+
+        <div include-html="./partials/footer.html"></div>
+    </div>
+
+    <script src="js/include-html.js"></script>
+<body>
 
 </html>
