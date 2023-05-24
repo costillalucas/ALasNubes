@@ -28,6 +28,7 @@
     width: calc(100%/10);
     min-height: 250px;
     background-color: lightblue;
+    object-fit: cover;
     
 }
 .carrousel .puntos{
@@ -40,7 +41,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .carrousel .punto{
     border-radius: .6em;
@@ -50,5 +51,5 @@
     margin: 0em 1em 0;
 }
 .carrousel .punto.activo{
-    background-color: #33d8ee;
+    background-color: #088292;
 }
