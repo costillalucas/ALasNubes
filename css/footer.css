@@ -110,12 +110,20 @@ line-height: 30px;
     display: flex;
     justify-content: left;
     padding: 20px;
+    padding-left: 35px;
     box-sizing: border-box;
 }
 
+.container-footer a{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .copyright{
     color: var(--gray-color);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 @media(max-width: 700px){
@@ -173,6 +181,12 @@ line-height: 30px;
         margin: 20px; /*Es necesaria esta linea?*/
     }
 }
+
+/*@media(max-width: 375px){
+    .container-footer a{
+        flex-direction: column;
+    }
+}*/
 
 
 
