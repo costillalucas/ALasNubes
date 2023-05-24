@@ -15,16 +15,16 @@
         <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
         <div include-html="./partials/header.html"></div>
         <div include-html="./partials/main-menu.html"></div>
-        <div class="seccion">
-            <div>
+
+        <section id="packages">
+            <article>
                 <h1>Patagonia Argentina</h1>
-            </div>
-            <h2>¡Explora nuestro paquete patagonia sur!</h2>
-            <div>
+                <h2>¡Explora nuestro paquete patagonia sur!</h2>
+
                 <img src="img/patagonia.jpg" alt="Patagonia Argentina" class="fotoDescripcion">
-                <ul class="descripcion">
+                <ul class="description">
                     <br>
-                    <li>Paquete patagonia sur: 10 días</li>
+                    <p>Paquete Patagonia Sur: 10 días</p>
                     <li>Pasaje aéreo (Salidas desde cualquier punto del país)</li>
                     <li>Traslados (aeropuerto / hotel / aeropuerto)</li>
                     <li>4 noches de alojamiento en Calafate, con desayuno.</li>
@@ -33,13 +33,14 @@
                     <li>Excursión en Ushuaia: Parque Nacional Tierra del Fuego.</li>
                     <li>Excursión en Calafate: Glaciar Perito Moreno.</li>
                     <li>Excursión en Chalten: Lago del Desierto.</li>
-                    <li>Precio aproximado: $150.000</li>
+                    <h4>Precio aproximado: $150.000</h4>
                 </ul>
-            </div>
-        </div>
-        <br>
+            </article>
+        </section>
+
         <div include-html="./partials/footer.html"></div>
     </div>
+
     <script src="js/include-html.js"></script>
 </body>
 </html>
