@@ -20,10 +20,11 @@ textarea{
 }
   
 input[type="submit"] {
-    background-color: #0b8b9c;
-    color: white;
+    background-color: #367e83 ;
+    color:white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid;
+    border-color: #659aaa;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -35,7 +36,8 @@ input[type="submit"]:hover {
 .form_label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-size: 16px;
 }
 
 .campo_requerido{
@@ -53,10 +55,22 @@ input[type="submit"]:hover {
 .formulario{
     display: inline-block;
     width: 100%;
-    border: 1px solid #798d89;
-    padding: 5px;
+    border: 1px solid var(--gray-color);
+    margin: 0;
+    padding: 0;
     background-image: url("../img/carronubes.avif");
-    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: "CastoroTitling-Regular";   
+}
+
+.formulario h1{
+    text-transform: uppercase;
+    font-family: "CastoroTitling-Regular";
+    font-size: 25px;
+    color: #0b8b9c;
+    padding:10px;
+    text-shadow: 2px 2px 5px #798d89;
 }
