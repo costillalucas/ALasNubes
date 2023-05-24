@@ -15,7 +15,12 @@ header {
 }
 header img{
     width: 200px;
+} 
+
+header div{
+    padding: 0px;
 }
+
 header h1{
     color: var(--primary-color);
     font-family: "CastoroTitling-Regular";

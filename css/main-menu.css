@@ -1,9 +1,11 @@
 #main-menu {
+    display:flex;
     float: left;
     width: 100%;
     background-color: var(--primary-color);
     box-shadow: 2px 2px 5px var(--gray-color);
     text-transform: uppercase;
+    justify-content: center;
 }
 #main-menu > ul > li{
     float:left;
@@ -12,7 +14,7 @@
 #main-menu > ul > li > a{
     color:white;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 18px;
     border-right: solid 1px var(--gray-color);
 }
 #main-menu > ul > li > a:hover{
@@ -43,6 +45,7 @@
 @media (max-width: 700px) {
     #main-menu > ul > li{
         width: 100%;
+        flex-direction: column;
         margin: 0;
         border-bottom: solid 1px var(--gray-color);
     }
