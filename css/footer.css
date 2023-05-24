@@ -118,7 +118,7 @@ line-height: 30px;
     font-size: 14px;
 }
 
-@media(max-width: 756px){
+@media(max-width: 700px){
     .container-body{
         flex-wrap: wrap; /*Esto me parece mejor para 400px*/
     }
