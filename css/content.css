@@ -61,6 +61,7 @@
 
 @media (max-width: 700px){ /* Es el tamaño que le estoy dando en todos los media query*/
     #content{
+        margin-block-start: 30px;
         width: 100%; /*esto significa que cuando llegue a 700px el content se ajustará al 100% del tamaño de la pantallita*/
     }
 }
