@@ -1,7 +1,9 @@
 #content{
+    display:flex;
+    flex-direction: column;
     float:left;
-    width: calc(100% - 300px);
-    margin-top: 40px;
+    width: 70%;
+    margin-top: 0px;
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -21,7 +23,6 @@
     margin-bottom: 30px;
     border: solid 1px var(--gray-color);
     box-shadow: 2px 2px 5px var(--gray-color);
-
 }
 
 #content article h2{
@@ -60,6 +61,7 @@
 
 @media (max-width: 700px){ /* Es el tamaño que le estoy dando en todos los media query*/
     #content{
+        margin-block-start: 30px;
         width: 100%; /*esto significa que cuando llegue a 700px el content se ajustará al 100% del tamaño de la pantallita*/
     }
 }

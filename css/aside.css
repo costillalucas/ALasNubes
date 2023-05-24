@@ -1,12 +1,15 @@
 aside{
     float: left;
-    width: 300px; /*Aquí creo que sería mejor poner 18% */
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    /*height: 705px;*/
     background-color: white;
-    margin-top:40px;
+    margin-top: 0px;
     padding:30px;
-    box-sizing:border-box; /* Esto le dice: quiero que el ancho sea de 300px y que todo lo demás se ajuse a eso*/
     border:solid 1px var(--gray-color);
     box-shadow: 2px 2px 5px var(--gray-color);
+    box-sizing:border-box;
 }
 
 aside h3{
@@ -24,9 +27,9 @@ aside h3{
     padding-bottom: 2px;
 }
 
-.widget{
-    margin-bottom: 60px;
-}
+/*.widget{
+    box-sizing: border-box;}*/
+
 
 .widget form input[type="email"], .widget form input[type="password"]{
     width: 100%;

@@ -110,17 +110,25 @@ line-height: 30px;
     display: flex;
     justify-content: left;
     padding: 20px;
+    padding-left: 35px;
     box-sizing: border-box;
 }
 
+.container-footer a{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .copyright{
     color: var(--gray-color);
-    font-size: 14px;
+    font-size: 12px;
 }
 
-@media(max-width: 756px){
+@media(max-width: 700px){
     .container-body{
-        flex-wrap: wrap;
+        flex-wrap: wrap; /*Esto me parece mejor para 400px*/
     }
     .column1{
         width: 50%;
@@ -146,7 +154,42 @@ line-height: 30px;
     }
 }
 
+@media(max-width: 550px){
+    .container-body{
+        flex-wrap: wrap;        
+        }
+    .column1{
+        width: 100%;
+        margin: 20px;
+            }
+    .column1 h1{
+        margin-left: 0px;
+    }
+    .column1 p{
+        width: 107%;
+        margin-left: 0px;
+        margin-bottom: -20px;
+        margin-right: 0px;
+    }
+    .column2{
+        width: 100%;
+        margin: 20px;
+    }
+    .column3{
+        width:100%;
+        margin: 20px; 
+    }
+    .column4{
+        width:100%;
+        margin: 20px; 
+    }
+}
 
+/*@media(max-width: 375px){
+    .container-footer a{
+        flex-direction: column;
+    }
+}*/
 
 
 
