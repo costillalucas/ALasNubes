@@ -8,8 +8,6 @@ body{
     padding: 20px 20px 50px;
     margin: 10% auto 0;
     background-color: rgb(134, 171, 184);
-    margin-bottom: 20px;
-    margin-top: 20px;
     /*border-radius: 9px;*/
 }
 .weather-content h1{

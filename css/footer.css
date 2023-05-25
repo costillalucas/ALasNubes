@@ -5,7 +5,6 @@ footer{
     margin-top: 0px ;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "CastoroTitling-Regular";
 }
 
 .container-body{
@@ -37,7 +36,6 @@ line-height: 30px;
     font-size: 15px;
     margin-left: 20px;
     font-family: "CastoroTitling-Regular";
-    text-transform: uppercase;
 }
 
 .column2{
