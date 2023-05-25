@@ -1,5 +1,5 @@
 # ALasNubes
-Para ejecutar el archivo:
+Para ejecutar el archivo desde la PC:
 1-Descargar todo el proyecto
 2-index.html es el que se debe abrir con el servidor (Open with live server), de otra forma tira error.
 
