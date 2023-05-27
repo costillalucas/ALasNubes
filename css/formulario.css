@@ -54,7 +54,8 @@ input[type="submit"]:hover {
 
 .formulario{
     display: inline-block;
-    width: 50%;
+    text-align: center;
+    width: 40%;
     border: 0px solid var(--gray-color);
     margin: 0;
     padding: 0;
