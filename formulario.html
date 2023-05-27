@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asesoría gratuita</title>
-    <link rel="stylesheet" type="text/css" href="../css/formulario.css">
-
+    <title>Noreste</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
-<body >
+<body>
+    <div id="container">
+        <!-- Aquí se vinculan todas las partes contenidas en la carpeta partials.html -->
+        <div include-html="./partials/header.html"></div>
+        <div include-html="./partials/main-menu.html"></div>
+
+
     <div class="formulario" align="center">
         <h1>Asesórate con nosotros</h1>
         <form method="post" onsubmit="return validarFormulario()">
@@ -118,8 +125,12 @@
     </div> -->
 
 <!---------------------------------------------------------------------------------------------------->
-
-    <script src="../js/validacion.js"></script>
+        <div include-html="./partials/footer.html"></div>
+    </div> <!--End of contaniner-->
+    
+    <script src="js/include-html.js"></script>
+    <script src="./js/validacion.js"></script>
 </body>
 
-</html>
+</html>            
+

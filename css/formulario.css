@@ -9,7 +9,7 @@ select {
     border-color: #367e83;
     border-radius: 4px;
 }
-
+/*Sección preferencias*/
 textarea{
     width: 330px;
     height: 120px;
@@ -54,8 +54,8 @@ input[type="submit"]:hover {
 
 .formulario{
     display: inline-block;
-    width: 100%;
-    border: 1px solid var(--gray-color);
+    width: 50%;
+    border: 0px solid var(--gray-color);
     margin: 0;
     padding: 0;
     background-image: url("../img/carronubes.avif");
